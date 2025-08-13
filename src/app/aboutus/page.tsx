@@ -181,16 +181,13 @@ Talk to Our Team
             className="w-full h-full object-cover"
           />
         </div>
-        
-        {/* Card Content */}
         <div className="p-6">
           <h4 className="text-xl font-bold text-gray-900 mb-2">Mugundhan Sankar</h4>
           <p className="text-sm text-gray-600 mb-4">Founder & Managing Director</p>
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             With 15+ years in logistics and operations, [Name] built ENTREX to redefine Indian ground transport with global standards and Indian values. His vision continues to guide the company's expansion and operational discipline.
           </p>
-          
-          {/* Social Icons */}
+       
           <div className="flex gap-3">
             <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -205,10 +202,7 @@ Talk to Our Team
           </div>
         </div>
       </div>
-
-      {/* Founder 2 Card */}
       <div className="bg-white rounded-2xl shadow-lg overflow-hidden max-w-sm mx-auto lg:mx-0">
-        {/* Image with colored background */}
         <div className="bg-red-500 h-80 flex items-end justify-center p-4">
           <img 
             src="/ent2.png" 
@@ -216,8 +210,7 @@ Talk to Our Team
             className="w-64 h-72 object-cover object-top"
           />
         </div>
-        
-        {/* Card Content */}
+       
         <div className="p-6">
           <div className="flex items-center gap-2 mb-2">
             <h4 className="text-xl font-bold text-gray-900">Balaji A</h4>
@@ -227,8 +220,7 @@ Talk to Our Team
           <p className="text-sm text-gray-700 leading-relaxed mb-4">
             Focused on client growth and digital transformation, [Name] leads ENTREX's enterprise engagements, tech roadmap, and innovation-driven service model.
           </p>
-          
-          {/* Social Icons */}
+    
           <div className="flex gap-3">
             <a href="#" className="text-gray-400 hover:text-blue-600 transition-colors">
               <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -264,9 +256,201 @@ Talk to Our Team
 </div>
 
 </section>
-<section>
-  <h3 className="text-xl">ENTEX-Our Journey</h3>
-</section>
+
+<main className="w-full bg-white text-black py-4 px-2 sm:px-4 lg:px-6 xl:px-8">
+  <div className="w-full bg-white py-12 sm:py-16 lg:py-20 relative overflow-hidden">
+    <div className="text-center mb-16 relative z-10">
+      <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold bg-gradient-to-r from-[#ED2628]/90 to-[#F3AA45]/90 bg-clip-text text-transparent mb-4">
+        ENTREX - Our Journey
+      </h2>
+      <div className="w-24 h-1 bg-gradient-to-r from-[#ED2628]/90 to-[#F3AA45]/90 mx-auto rounded-full"></div>
+    </div>
+
+    <div className="relative w-full h-[600px] mx-auto max-w-6xl px-4">
+    
+      <div 
+        className="absolute transform transition-all duration-300 hover:scale-110 group cursor-pointer"
+        style={{ left: "5%", top: "60%" }}
+      >
+        <div className="absolute -top-8 left-0 w-20 text-center">
+          <span className="text-2xl font-bold text-gray-800">2017</span>
+        </div>
+        
+        <div className="relative">
+          <div className="w-20 h-20 bg-gradient-to-br from-green-400 to-teal-500 rounded-lg shadow-lg transform perspective-1000">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white bg-opacity-30 rounded transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="absolute top-0 left-20 w-4 h-20 bg-gradient-to-b from-green-400 to-teal-500 opacity-70 transform skew-y-12 origin-left rounded-r-lg"></div>
+          <div className="absolute -top-2 left-2 w-20 h-4 bg-gradient-to-r from-green-400 to-teal-500 opacity-90 transform -skew-x-12 origin-bottom rounded-t-lg"></div>
+        </div>
+
+        <div className="absolute top-24 left-0 w-64 bg-white p-3 rounded-lg shadow-md border">
+          <p className="text-sm font-semibold text-gray-800">ENTREX founded with a mission to redefine corporate transport services.</p>
+        </div>
+      </div>
+
+   
+      <div 
+        className="absolute transform transition-all duration-300 hover:scale-110 group cursor-pointer"
+        style={{ left: "35%", top: "75%" }}
+      >
+        <div className="absolute -top-8 left-0 w-20 text-center">
+          <span className="text-2xl font-bold text-gray-800">2018</span>
+        </div>
+        
+        <div className="relative">
+          <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg shadow-lg transform perspective-1000">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white bg-opacity-30 rounded transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="absolute top-0 left-20 w-4 h-20 bg-gradient-to-b from-green-500 to-blue-500 opacity-70 transform skew-y-12 origin-left rounded-r-lg"></div>
+          <div className="absolute -top-2 left-2 w-20 h-4 bg-gradient-to-r from-green-500 to-blue-500 opacity-90 transform -skew-x-12 origin-bottom rounded-t-lg"></div>
+        </div>
+
+
+        <div className="absolute top-24 left-0 w-64 bg-white p-3 rounded-lg shadow-md border">
+          <p className="text-sm font-semibold text-gray-800">Recognized as one of the fastest-growing mobility startups in South India.</p>
+        </div>
+      </div>
+
+
+      <div 
+        className="absolute transform transition-all duration-300 hover:scale-110 group cursor-pointer"
+        style={{ left: "15%", top: "25%" }}
+      >
+       
+        <div className="absolute -top-8 left-0 w-20 text-center">
+          <span className="text-2xl font-bold text-gray-800">2019</span>
+        </div>
+        
+        <div className="relative">
+          <div className="w-20 h-20 bg-gradient-to-br from-purple-400 to-purple-600 rounded-lg shadow-lg transform perspective-1000">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white bg-opacity-30 rounded transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="absolute top-0 left-20 w-4 h-20 bg-gradient-to-b from-purple-400 to-purple-600 opacity-70 transform skew-y-12 origin-left rounded-r-lg"></div>
+          <div className="absolute -top-2 left-2 w-20 h-4 bg-gradient-to-r from-purple-400 to-purple-600 opacity-90 transform -skew-x-12 origin-bottom rounded-t-lg"></div>
+        </div>
+
+        <div className="absolute top-24 left-0 w-64 bg-white p-3 rounded-lg shadow-md border">
+          <p className="text-sm font-semibold text-gray-800">Registered as Pro Entrex Logistics Pvt. Ltd. to scale nationwide operations.</p>
+        </div>
+      </div>
+
+      <div 
+        className="absolute transform transition-all duration-300 hover:scale-110 group cursor-pointer"
+        style={{ left: "45%", top: "25%" }}
+      >
+  
+        <div className="absolute -top-8 left-0 w-20 text-center">
+          <span className="text-xl font-bold text-gray-800">2020-21</span>
+        </div>
+        
+        <div className="relative">
+          <div className="w-20 h-20 bg-gradient-to-br from-purple-500 to-purple-700 rounded-lg shadow-lg transform perspective-1000">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white bg-opacity-30 rounded transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="absolute top-0 left-20 w-4 h-20 bg-gradient-to-b from-purple-500 to-purple-700 opacity-70 transform skew-y-12 origin-left rounded-r-lg"></div>
+          <div className="absolute -top-2 left-2 w-20 h-4 bg-gradient-to-r from-purple-500 to-purple-700 opacity-90 transform -skew-x-12 origin-bottom rounded-t-lg"></div>
+        </div>
+
+    
+        <div className="absolute top-24 left-0 w-64 bg-white p-3 rounded-lg shadow-md border">
+          <p className="text-sm font-semibold text-gray-800">Successfully navigated the COVID-19 pandemic, increasing client servicing amidst crisis.</p>
+        </div>
+      </div>
+
+
+      <div 
+        className="absolute transform transition-all duration-300 hover:scale-110 group cursor-pointer"
+        style={{ left: "65%", top: "65%" }}
+      >
+        
+        <div className="absolute -top-8 left-0 w-20 text-center">
+          <span className="text-2xl font-bold text-gray-800">2022</span>
+        </div>
+        
+        <div className="relative">
+          <div className="w-20 h-20 bg-gradient-to-br from-purple-600 to-pink-600 rounded-lg shadow-lg transform perspective-1000">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white bg-opacity-30 rounded transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="absolute top-0 left-20 w-4 h-20 bg-gradient-to-b from-purple-600 to-pink-600 opacity-70 transform skew-y-12 origin-left rounded-r-lg"></div>
+          <div className="absolute -top-2 left-2 w-20 h-4 bg-gradient-to-r from-purple-600 to-pink-600 opacity-90 transform -skew-x-12 origin-bottom rounded-t-lg"></div>
+        </div>
+
+        <div className="absolute top-24 left-0 w-64 bg-white p-3 rounded-lg shadow-md border">
+          <p className="text-sm font-semibold text-gray-800">Expanded to become a PAN India corporate transport solutions provider.</p>
+        </div>
+      </div>
+
+      <div 
+        className="absolute transform transition-all duration-300 hover:scale-110 group cursor-pointer"
+        style={{ left: "78%", top: "35%" }}
+      >
+        <div className="absolute -top-8 left-0 w-20 text-center">
+          <span className="text-2xl font-bold text-gray-800">2024</span>
+        </div>
+        
+        <div className="relative">
+          <div className="w-20 h-20 bg-gradient-to-br from-orange-400 to-red-500 rounded-lg shadow-lg transform perspective-1000">
+            <div className="w-full h-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-white bg-opacity-30 rounded transform rotate-45"></div>
+            </div>
+          </div>
+          <div className="absolute top-0 left-20 w-4 h-20 bg-gradient-to-b from-orange-400 to-red-500 opacity-70 transform skew-y-12 origin-left rounded-r-lg"></div>
+          <div className="absolute -top-2 left-2 w-20 h-4 bg-gradient-to-r from-orange-400 to-red-500 opacity-90 transform -skew-x-12 origin-bottom rounded-t-lg"></div>
+        </div>
+
+        <div className="absolute top-24 left-0 w-64 bg-white p-3 rounded-lg shadow-md border">
+          <p className="text-sm font-semibold text-gray-800">Established as a prime partner for enterprise clients, with services extended to Tier 2 cities across India.</p>
+        </div>
+      </div>
+
+      <div className="absolute top-8 right-8 transform hover:scale-110 transition-transform duration-300">
+        <div className="relative">
+          <div className="w-12 h-16 bg-gradient-to-b from-purple-500 to-purple-700 rounded-full shadow-lg">
+            <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-8 h-8 bg-white rounded-full flex items-center justify-center">
+              <div className="w-4 h-4 bg-purple-600 rounded-full"></div>
+            </div>
+          </div>
+          <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-2 border-r-2 border-t-3 border-transparent border-t-purple-700"></div>
+        </div>
+      </div>
+
+      <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: -1 }}>
+        <defs>
+          <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stopColor="#e5e7eb" />
+            <stop offset="50%" stopColor="#d1d5db" />
+            <stop offset="100%" stopColor="#9ca3af" />
+          </linearGradient>
+        </defs>
+        <path
+          d="M 80 300 Q 200 200, 400 180 T 800 350"
+          stroke="url(#pathGradient)"
+          strokeWidth="3"
+          fill="none"
+          strokeDasharray="10,5"
+          className="animate-pulse"
+        />
+      </svg>
+    </div>
+
+   
+    <div className="absolute top-1/4 left-10 w-6 h-6 bg-purple-300 rounded-full opacity-60 animate-bounce" style={{ animationDelay: '0s' }}></div>
+    <div className="absolute top-1/3 right-20 w-4 h-4 bg-blue-300 rounded-full opacity-50 animate-bounce" style={{ animationDelay: '1s' }}></div>
+    <div className="absolute bottom-1/4 left-1/4 w-8 h-8 bg-green-300 rounded-full opacity-40 animate-bounce" style={{ animationDelay: '2s' }}></div>
+  </div>
+</main>
+
 <section className="bg-gray-100 py-12 sm:py-16 lg:py-20 px-4 sm:px-6 lg:px-8 text-black">
   <h3 className="flex justify-center text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-center">
     What Our Clients Say
